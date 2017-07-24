@@ -15,7 +15,7 @@
 	}
 
 	function getWeather(lat, lon){
-		var urlString = 'https://api.openweathermap.org/data/2.5/weather?' + 
+		var urlString = 'http://api.openweathermap.org/data/2.5/weather?' + 
         'lat='+ lat +
         '&lon='+ lon +
         '&units=metric' +
