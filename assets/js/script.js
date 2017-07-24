@@ -47,7 +47,7 @@
 				$("#humidity").text("Humidity: " + result.main.humidity + "%");
 				$("#wind").text("Wind Speed: "+ result.wind.speed + "m/s");
 
-				$("#sunIcon").attr('src','assets/img/icons/' + result.weather[0].icon + '.png');
+				$("#sunIcon").attr('src','assets/img/' + result.weather[0].icon + '.png');
 
 			}
 		});
