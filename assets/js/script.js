@@ -25,7 +25,6 @@
 			url: urlString,
 			success: function(result){
 				$("#city").text(result.name+", ");
-				alert("Hello");
 				$("#country").text(result.sys.country);
 				$("#temp").text(result.main.temp+ "°C");
 				$("#description").text(result.weather[0].main);
