@@ -15,7 +15,7 @@
 	}
 
 	function getWeather(lat, lon){
-		var urlString = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?' + 
+		var urlString = 'https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/onecall?' + 
         'lat='+ lat +
         '&lon='+ lon +
         '&units=metric' +
